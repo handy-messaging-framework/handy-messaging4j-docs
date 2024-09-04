@@ -18,7 +18,7 @@ Apart from the core feature of standardizing the messaging layer, HMF4J provides
  - Standardized messaging types
  - Seamless testing of application using the packaged test toolkit and in-memory messaging system called Photon Messaging System
 
-To get started with the Handy-Messaging-Framework4J framework, check here - [Getting Started](GettingStarted.html)
+To get started with the Handy-Messaging-Framework4J framework, check here - [Getting Started]({{ BASE_PATH }}/handy-messaging4j-docs/GettingStarted.html)
 
 
 

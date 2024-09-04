@@ -27,6 +27,7 @@ email: arondeveloper@yahoo.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  aronsajan
+repository: https://github.com/handy-messaging-framework/handy-messaging4j-docs
 
 # Build settings
 theme: just-the-docs

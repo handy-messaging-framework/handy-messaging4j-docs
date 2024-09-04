@@ -16,7 +16,7 @@ The MQTT Connector enables the framework to interface with MQTT messaging system
 </dependency>
 ```
 
-The `system` parameter in the configuration profile should be `mqtt`. [Read more on configuration file here](../configuration.html). The supported `producer` and `consumer` properties are given below:
+The `system` parameter in the configuration profile should be `mqtt`. The supported `producer` and `consumer` properties are given below:
 
 ### Producer Properties
 

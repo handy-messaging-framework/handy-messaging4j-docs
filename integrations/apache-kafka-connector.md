@@ -16,7 +16,7 @@ The Apache Kafka Connector enables HMF4J to interface with Apache Kafka messagin
 </dependency>
 ```
 
-The `system` parameter in the configuration profile should be `kafka`. [Read more on configuration file here](../configuration.html). The `consumer` and `producer` properties in the configuration file should be any valid Apache Kafka properties. More details on these properties can be read [here](https://kafka.apache.org/intro). For the consumer the 2 mandatory properties required by the HMF4J framework are `max.messages.per.batch` and `max.poll.duration.millis.` 
+The `system` parameter in the configuration profile should be `kafka`. The `consumer` and `producer` properties in the configuration file should be any valid Apache Kafka properties. [More details on these properties can be read here](https://kafka.apache.org/intro). For the consumer the 2 mandatory properties required by the HMF4J framework are `max.messages.per.batch` and `max.poll.duration.millis.` 
 
 A sample of the configuration file for Apache Kafka system looks like below:
 

@@ -16,7 +16,7 @@ Photon Messaging Systems brings the common denominator of different messaging sy
 
 - Support for rasing multiple instances of messaging systems - If you have a scenario where you are interfacing with multiple messaging systems and want to test the interactions among them, Photon Messaging has the capability to spin up multiple messaging services that can then be tied to the application tested.
 
-- Seamless integration with HMF4J's Test Toolkit - HMF4J's Test Toolkit is built around the Photon Messaging system. This means that to test the code, there is no need of any extra bootstrapping of the Photon Messaging system as it will be taken care seamlessly by the Test Toolkit. Hence any bootstrapping steps like - raising messaging instances, creation of queues, subscribing to queues are all taken care behind the scene by the Test Tookit. More on this in [Seamless Testing](/features/seamless_testing.html)
+- Seamless integration with HMF4J's Test Toolkit - HMF4J's Test Toolkit is built around the Photon Messaging system. This means that to test the code, there is no need of any extra bootstrapping of the Photon Messaging system as it will be taken care seamlessly by the Test Toolkit. Hence any bootstrapping steps like - raising messaging instances, creation of queues, subscribing to queues are all taken care behind the scene by the Test Tookit. More on this in [Seamless Testing]({{ BASE_PATH }}/handy-messaging4j-docs/features/seamless_testing.html)
 
 ## Working with Photon Messaging System
 Though HMF4J's Test Toolkit makes it easier to work with Photon Messaging System, here are some steps to get you started:

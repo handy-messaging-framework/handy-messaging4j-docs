@@ -11,7 +11,7 @@ The MQTT Connector enables the framework to interface with MQTT messaging system
 ```xml
 <dependency>
     <groupId>io.github.handy-messaging-framework</groupId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <artifactId>hmf4j-mqtt-connector</artifactId>
 </dependency>
 ```

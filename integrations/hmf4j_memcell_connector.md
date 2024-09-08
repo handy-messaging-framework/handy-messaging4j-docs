@@ -1,34 +1,34 @@
 ---
 layout: default
-title: Photon Message Queue Integration
+title: Memcell Message Queue Integration
 parent: Supported Messaging Platforms
 ---
 
-# Photon Messaging Integration
+# Memcell Messaging Integration
 
-The Photon Messaging Connector enables the framework to interface with Photon's messaging system. The following dependency along with other Handy-Messaging framework libraries imports Photon connector:
+The Memcell Messaging Connector enables the framework to interface with Memcell's messaging system. The following dependency along with other Handy-Messaging framework libraries imports Memcell Messaging connector:
 
 ```xml
 <dependency>
   <groupId>io.github.handy-messaging-framework</groupId>
-  <artifactId>hmf4j-photon-connector</artifactId>
-  <version>1.0.0</version>
+  <artifactId>hmf4j-memcell-connector</artifactId>
+  <version>1.1.0</version>
 </dependency>
 ```
 
-The `system` parameter in the configuration profile should be `photon-mq`. The supported `producer` and `consumer` properties are given below:
+The `system` parameter in the configuration profile should be `memcell-mq`. The supported `producer` and `consumer` properties are given below:
 
 ### Producer Properties
 
 | Property | Semantics | DataType
 | -------- | --------- | ------------
-| photon.messaging.instance | The instance of the Photon messaging service | String
+| memcell.messaging.instance | The instance of the Memcell messaging service | String
 
 ### Consumer Properties
 
 | Property | Semantics | DataType
 | -------- | --------- | ------------
-| photon.messaging.instance | The instance of the Photon messaging service | String
+| memcell.messaging.instance | The instance of the Memcell messaging service | String
 | application.id | The application id for the consumer | String
 | max.messages.per.batch | Mandatory Handy-Messaging Framework's dispatcher property | Integer
 | max.poll.duration.millis | Mandatory Handy-Messaging Framework's dispatcher property | Integer
@@ -38,15 +38,15 @@ A sample configuration file illustrating the producer and consumer properties is
 ```yaml
 hmf4j:
  profiles:
-  - profileName: photon_profile
-    system: photon
+  - profileName: memcell_profile
+    system: memcell-mq
     consumer:
       properties:
-        photon.messaging.instance: "myPhotonInstance"
+        memcell.messaging.instance: "myMemcellInstance"
         application.id: "myAppId"
         max.messages.per.batch: 3
         max.poll.duration.millis: 15000
     producer:
       properties:
-        photon.messaging.instance: "myPhotonInstance"
+        memcell.messaging.instance: "myMemcellInstance"
 ```

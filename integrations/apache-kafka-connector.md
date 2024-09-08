@@ -12,7 +12,7 @@ The Apache Kafka Connector enables HMF4J to interface with Apache Kafka messagin
 <dependency>
   <groupId>io.github.handy-messaging-framework</groupId>
   <artifactId>hmf4j-kafka-connector</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
 </dependency>
 ```
 

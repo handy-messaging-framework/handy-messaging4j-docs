@@ -14,7 +14,7 @@ The below dependency is the bare minimum one that will be needed with any projec
 <dependency>
     <groupId>io.github.handy-messaging-framework</groupId>
     <artifactId>hmf4j-core</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
@@ -32,12 +32,12 @@ Apart from the dependencies listed above, include the following dependecies to y
 <dependency>
     <groupId>io.github.handy-messaging-framework</groupId>
     <artifactId>hmf4j-kafka-connector</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 <dependency>
     <groupId>io.github.handy-messaging-framework</groupId>
     <artifactId>hmf4j-types-simplemessage</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 
@@ -191,7 +191,7 @@ The framework provides an easy way to integrate with your Springboot application
 <dependency>
     <groupId>io.github.handy-messaging-framework</groupId>
     <artifactId>hmf4j-springboot</artifactId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 </dependency>
 ```
 

@@ -11,7 +11,7 @@ The Google Pub/Sub Connector enables the framework to interface with Google's pu
 ```xml
  <dependency>
     <groupId>io.github.handy-messaging-framework</groupId>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <artifactId>hmf4j-google-pubsub-connector</artifactId>
 </dependency>
 ```

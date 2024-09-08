@@ -16,7 +16,7 @@ Apart from the core feature of standardizing the messaging layer, HMF4J provides
  - Interoperability with multiple messaging systems seamlessly
  - Ordering of messages so as to avoid race condition scenarios
  - Standardized messaging types
- - Seamless testing of application using the packaged test toolkit and in-memory messaging system called Photon Messaging System
+ - Seamless testing of application using the packaged test toolkit and in-memory messaging system called Memcell Messaging System
 
 To get started with the Handy-Messaging-Framework4J framework, check here - [Getting Started]({{ BASE_PATH }}/handy-messaging4j-docs/GettingStarted.html)
 

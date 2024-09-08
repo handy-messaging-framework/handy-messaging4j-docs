@@ -57,13 +57,13 @@ In the above code, the `ProducerExec()` fucntion gets a SimpleMessage and sends 
 
 #### Test Setup
 
-In the testing environment, create a similar configuration file with the only difference of the system being `photon-mq` instead of `kafka`. Here is how the configuration file will look like:
+In the testing environment, create a similar configuration file with the only difference of the system being `memcell-mq` instead of `kafka`. Here is how the configuration file will look like:
 
 ```yaml
 hmf4j:
  profiles:
   - profileName: testSampleProfile
-    system: photon-mq
+    system: memcell-mq
     producer:
       properties:
         bootstrap.servers: localhost:9092
@@ -102,10 +102,10 @@ Here is how to verify the message from the producer:
 ```
 
 Here, the test code sets up an instance of `HandyMessagingTestLab` called `testLab` which performs the following:
-- Spins up a Photon Messaging System with the instance name `testSampleProfile`
-- Creates a queue `test_topic` in the Photon Messaging system. 
+- Spins up a Memcell Messaging System with the instance name `testSampleProfile`
+- Creates a queue `test_topic` in the Memcell Messaging system. 
 
-Once this test setup is ready, executing the `producer.sendMessage()` triggers the producer code to send the message. We are going to verify if the message sent by the producer is the same as we expected. Note that, calling `producer.sendMessage()` from the test environment will invoke the photon messaging system to send the message since the same profile `testSampleProfile` defined in the main application is wired to the `photon-mq` in the test system.
+Once this test setup is ready, executing the `producer.sendMessage()` triggers the producer code to send the message. We are going to verify if the message sent by the producer is the same as we expected. Note that, calling `producer.sendMessage()` from the test environment will invoke the memcell messaging system to send the message since the same profile `testSampleProfile` defined in the main application is wired to the `memcell-mq` in the test system.
 
 The next step is to analyze the messages sent by the producer. The `testLab.getAnalysisProbe(1000, "testSampleProfile", "test_topic")` sets up an analysis probe subscriber to the `test_topic` which looks for messages in the `test_topic` queue for 1 second (1000 ms referred in the argument). The analysis probe has various utilities to analyze messages. In this example `hasAnyMessages(expectedMessageInstance, MessageField...)` is used. The `hasAnyMessages(...)` compares the message received by the analysis probe to the `expectedMessageInstance` on the fields indicated by the message fields - `MessageField...` In this example we are using `SimpleMessage` as the message type, SimpleMessage has various MessageFields available for matching. `SimpleMessageField.ID` and  `SimpleMessageField.SENDER` are used for matching in this example. Similarly any such message fields can be used
 

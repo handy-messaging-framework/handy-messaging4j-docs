@@ -21,7 +21,7 @@ Apart from the core feature of standardizing the messaging layer, HMF4J provides
 To get started with the Handy-Messaging-Framework4J framework, check here - [Getting Started]({{ BASE_PATH }}/handy-messaging4j-docs/GettingStarted.html)
 
 ## Contact
-For any queries, please reach out to [Aron Sajan Philip](https://aronsajan.github.io/)
+For any queries, please reach out to [Aron Sajan Philip](https://aronsajanphilip.netlify.app)
 
 
 

@@ -32,6 +32,7 @@ repository: handy-messaging-framework/handy-messaging4j-docs
 
 # Build settings
 theme: just-the-docs
+logo: /assets/logo.png
 color_scheme: light
 plugins:
   - jekyll-feed

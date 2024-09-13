@@ -35,8 +35,7 @@ theme: just-the-docs
 color_scheme: light
 plugins:
   - jekyll-feed
-logo: "assets/banner.png"
-favicon_ico: "assets/banner.png"
+favicon_ico: "assets/favicon.ico"
 sidebar:
   - getting-started
 

@@ -4,6 +4,8 @@ title: "Handy-Messaging-Framework4J"
 nav_order: 1
 ---
 
+![]({{ BASE_PATH }}/handy-messaging4j-docs/assets/banner.png)
+
 # Handy-Messaging-Framework4J Documentation
 
 ## Motivation

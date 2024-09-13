@@ -11,6 +11,16 @@ Before dwelving to the details of using the test toolkit, lets see a new messagi
 Memcell is an in-memory messaging system that is built from ground up with focus on testing messaging handler routines within an application. While testing a message producer or consumer, Memcell Messaging Service abstracts the messaging system and allows the testing code to send and receive messages from Memcell Messaging just like how they can do with any other messaging systems like Apache Kafka, Google Pub/Sub etc...
 Memcell Messaging System derives its features from common behavior of several messaging service which is the core foundation on which the HMF4J is built upon. Just like how an application can send and receive asynchronous messages from any messaging system, it can do the same with Memcell Messaging System.
 
+## Importing Memcell Messaging
+
+```xml
+ <dependency>
+    <groupId>io.github.handy-messaging-framework</groupId>
+    <artifactId>hmf4j-memcell-messagingsystem</artifactId>
+    <version>1.1.0</version>
+</dependency>
+```
+
 ## Why Memcell Messaging System?
 Memcell Messaging Systems brings the common denominator of different messaging systems together, there are several characteristics that makes Memcell ideal for integrating with your test code:
 - Running in the same memory space as that of your application

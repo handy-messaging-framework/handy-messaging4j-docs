@@ -3,9 +3,6 @@ layout: default
 title: "Handy-Messaging-Framework4J"
 nav_order: 1
 ---
-<div style="text-align: center;">
-<img src="https://handy-messaging-framework.github.io/handy-messaging4j-docs/assets/banner.png" width=350px height=350px></img>
-</div>
 
 # Handy-Messaging-Framework4J Documentation
 

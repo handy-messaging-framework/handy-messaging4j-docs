@@ -38,11 +38,7 @@ plugins:
   - jekyll-feed
 sidebar:
   - getting-started
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-LLGMPP2S6C"
-    anonymize_ip: false # default  
+ga_tracking: G-LLGMPP2S6C
 
 # Exclude from processing.
 # The following items will not be processed, by default.
